@@ -6,6 +6,10 @@ class P06_SumOfTwoNumbers {
         $numA = 100;
         $numB = 200;
 
+        $suma = $numA + $numB;
+
+        echo "The sum of the numbers is ". $suma . "\n"; 
+
         // Calculate the sum and output the result
         // Write your program here
         

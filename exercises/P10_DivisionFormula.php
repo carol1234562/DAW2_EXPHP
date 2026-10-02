@@ -6,6 +6,11 @@ class P10_DivisionFormula {
         $numA = 10;
         $numB = 4;
 
+
+        $sum = $numA / $numB;
+
+        echo $numA . " / " . $numB ." = " . $sum . "\n";
+
         // Output the formula and result
         // Write the program here
     }

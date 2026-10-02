@@ -6,6 +6,11 @@ class P11_AverageOfTwoNumbers {
         $numA = 20;
         $numB = 15;
 
+        $sum = $numA + $numB;
+        $prom = $sum / 2 ;
+
+        echo "The average is " . $prom. "\n";
+
         // Output the formula and result
         // Write the program here
     }

@@ -10,7 +10,12 @@ class P47_ArrayPrinter
 
     public function printNeatly(array $array): void
     {
-        // Write your code here
-       
+        for ($i = 0; $i < count($array); $i++) {
+            if ($i > 0) {
+                echo ", ";
+            }
+            echo $array[$i];
+    }
+        echo "\n";
     }
 }

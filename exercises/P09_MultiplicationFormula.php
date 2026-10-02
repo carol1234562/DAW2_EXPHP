@@ -6,6 +6,10 @@ class P09_MultiplicationFormula {
         $numA = 4;
         $numB = 4;
 
+         $sum = $numA * $numB;
+
+        echo $numA . " x " . $numB ." = " . $sum . "\n";
+
         // Output the formula and result
         // Write the program here
     }

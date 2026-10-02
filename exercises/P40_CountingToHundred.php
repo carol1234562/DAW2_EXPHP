@@ -4,7 +4,12 @@ class P40_CountingToHundred
 {
     public function main(): void
     {
-        // Write your program here
+        $n = (int) trim(fgets($GLOBALS['STDIN'] ?? STDIN));
+        
+        
+        for ($i = $n; $i <= 100; $i++) {
+            echo $i . "\n";
+        }
        
     }
 }
